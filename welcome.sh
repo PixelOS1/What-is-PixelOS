@@ -20,7 +20,7 @@ echo -e $WHITE' |    |    |   | /     \  |        \|    |___ /    |    \ /      
 echo -e $WHITE' |____|    |___|/___/\  \/_______  /|_______ \\_______  //_______  /' >> /etc/issue
 echo -e $WHITE'                      \_/        \/         \/        \/         \/ ' >> /etc/issue
 echo -e $WHITE'                                                ' >> /etc/issue
-echo -e $LGRAY'By TurboPlay Corporation' >> /etc/issue
+echo -e $LGRAY'Pixel Streaming OS' >> /etc/issue
 
 echo -e $LGRAY'Hostname: '$(hostname -a) >> /etc/issue
 echo -e $LGRAY'Kernel:   '$(uname -r)    >> /etc/issue
