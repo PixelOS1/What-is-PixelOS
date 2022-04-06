@@ -6,7 +6,7 @@ PixelOS comes in two flavours:
 - PixelOS Server Edition
 - PixelOS Desktop Edition
 
-Both editions are currently based on the source-based Linux distro Gentoo. Gentoo was a natural choice for our team after considering all of the options. In the future we plan to add package management to PixelOS.
+Both editions are currently based on the source-based Linux distro Gentoo. Gentoo was a natural choice for our team after considering all of the options. In the future we plan to add package management to PixelOS. Yes we are POSIX-based too.
 
 **PixelOS Server Edition** features bleeding-edge support for Windows based videogames running headless on a server. What is this voodoo we speak of? Well it is quite simple. In order for the world support cloud based pixel streaming the ability to provide this support requires new extreme innovation regarding deployment of systems used by gamers and non-gamers to experience 3D applications running in the cloud.
 
