@@ -1,6 +1,6 @@
 # What is PixelOS?
 
-PixelOS began out the need for our team to deliver pixel streaming in the cloud.
+PixelOS began out the need for our team to deliver pixel streaming in the cloud. Pixel Streaming refers to the effort to stream a video game, over a server, to a client somewhere on the internet.
 
 PixelOS comes in two flavours:
 - PixelOS Server Edition
@@ -22,3 +22,7 @@ PixelOS currently features support for the following:
 - Vulkan DX12 Patches
 - H.264 Pixel Streaming Patches
 - Premium Pixel Streaming Support for Unreal Engine 4.27 and Unreal Engine 5
+
+# What is the diff between this and SteamOS/Proton?
+
+Simply put Valve's work is tightly tied to its proprietary hardware and software. While we find the Steam Deck to be an interesting consumer device running Linux/Wine. It is not a utility we could use to support pixel streaming. Instead we have gathered the open source patches provided by Valve's steam to Wine and the Linux Kernel to support our efforts in creating the world's first Pixel Streaming OS. 
