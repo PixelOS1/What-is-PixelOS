@@ -12,7 +12,7 @@ Both editions are currently based on the source-based Linux distro Gentoo. Gento
 
 **PixelOS Desktop Edition** features bleed-edge support for Windows gaming running on the latest Linux technologies without most of the quirks. Top of the line support for streamers and video casting technology on Linux. For professional gamers where every ms counts. PixelOS supports you with it's deeply optimized PixelOS Kernel.
 
-This is not a multilib distribution.
+This is not a multilib distribution. X86_64 only.
 
 PixelOS is a source-based, systemd-based, linux-based.
 
