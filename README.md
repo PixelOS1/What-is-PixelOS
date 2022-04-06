@@ -19,6 +19,6 @@ PixelOS currently features support for the following:
 - NVIDIA 510 Driver dkms. AMD support to follow shortly
 - Lightly Skinned XFCE4 Windows Manager
 - Wine with Proton Patches
-- Vulkan DX12 Support
-- H.264 Pixel Streaming Support
+- Vulkan DX12 Patches
+- H.264 Pixel Streaming Patches
 - Premium Pixel Streaming Support for Unreal Engine 4.27 and Unreal Engine 5
