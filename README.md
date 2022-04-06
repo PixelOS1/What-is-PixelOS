@@ -3,8 +3,8 @@
 PixelOS began out the need for our team to deliver pixel streaming in the cloud. Pixel Streaming refers to the effort to stream a video game, over a server, to a client somewhere on the internet.
 
 PixelOS comes in two flavours:
-- PixelOS Server Edition
-- PixelOS Desktop Edition
+- **PixelOS Server Edition
+- **PixelOS Desktop Edition
 
 Both editions are currently based on the source-based Linux distro Gentoo. Gentoo was a natural choice for our team after considering all of the options. In the future we plan to add package management to PixelOS. Yes we are POSIX-based too.
 
