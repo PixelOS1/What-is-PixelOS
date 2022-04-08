@@ -31,4 +31,7 @@ Simply put Valve's work is tightly tied to its proprietary hardware and software
 
 # What compilers does PixelOS support?
 
+- GCC
+- minGW
+
 PiexelOS aims to provide first party support for Windows PE based binaries. If you are familar with compilers you will know that Linux distros have struggled over the years with the difficulties of using minGW to cross compile "fake" Windows binaries on Linux. No distribution we've used has every properly supported minGW + GCC. Why is all this important? Creating and running Windows PE binaries on Linux requires minGW to build and support Proton/Wine. The Frogger Family has provided a portable solution which we have adapted for PixelOS. We use the original Gentoo GCC compiler to bootstrap our custom PixelOS build of GCC and then we have this GCC build to compile minGW. These tools are then installed. Eventually we will move this process PixelOS's own ebuild.
