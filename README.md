@@ -27,4 +27,8 @@ PixelOS currently features support for the following:
 
 # What is the diff between this and SteamOS/Proton?
 
-Simply put Valve's work is tightly tied to its proprietary hardware and software. While we find the Steam Deck to be an interesting consumer device running Linux/Wine. It is not a utility we could use to support pixel streaming. Instead we have gathered the open source patches provided by Valve's steam to Wine and the Linux Kernel to support our efforts in creating the world's first Pixel Streaming OS. 
+Simply put Valve's work is tightly tied to its proprietary hardware and software. While we find the Steam Deck to be an interesting consumer device running Linux/Wine. It is not a utility we could use to support pixel streaming. Instead we have gathered the open source patches provided by Valve's steam to Wine and the Linux Kernel to support our efforts in creating the world's first Pixel Streaming OS.
+
+# What compilers does PixelOS support?
+
+PiexelOS aims to provide first party support for Windows PE based binaries. If you are familar with compilers you will know that Linux distros have struggled over the years with the difficulties of using minGW to cross compile "fake" Windows binaries on Linux. No distribution we've used has every properly supported minGW + GCC. Why is all this important? Creating and running Windows PE binaries on Linux requires minGW to build and support Proton/Wine. The Frogger Family has provided a portable solution which we have adapted for PixelOS. We use the original Gentoo GCC compiler to bootstrap our custom PixelOS build of GCC and then we have this GCC build to compile minGW. These tools are then installed. Eventually we will move this process PixelOS's own ebuild.
