@@ -35,3 +35,7 @@ Simply put Valve's work is tightly tied to its proprietary hardware and software
 - minGW
 
 PiexelOS aims to provide first party support for Windows PE based binaries. Most games will not run unless the binaries pass PE checks. If you are familar with compilers you will know that Linux distros have struggled over the years with the difficulties of using minGW to cross compile "fake" Windows binaries on Linux. No distribution we've used has ever properly supported minGW + GCC entirely and most struggle on rolling releases. Why is all this important? Creating and running Windows PE binaries on Linux requires minGW to build and support Proton/Wine. The Frogger Family has provided a portable solution which we have adapted for PixelOS. We use the original Gentoo GCC compiler to bootstrap our custom PixelOS build of GCC and then we have this GCC build to compile minGW. These tools are then installed. Eventually we will move this process PixelOS's own ebuild.
+
+# How does Pixel Streaming support encoding? What API does it use?
+
+Pixel Streaming can use both software and hardware based encoding. Our prefence is hardware based encoding. We support NVEnc out of the box and we are currently looking at adding support for Intel based encoding as well. Our perferred codec is VP9 but we will also support H.264 if we can - H.264 is closed. We've had to in some circumstances add support for NVEnc.
